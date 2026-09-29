@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222222; /* Ciemny, czytelny tekst */
+}
+
+/* Główny nagłówek u góry */
+header h1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+    margin-top: 30px;
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    height: 2px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+/* Biały, półprzezroczysty kontener pod formularze/menu */
+.container {
+    background-color: rgba(255, 255, 255, 0.92); /* Jasne tło zapewniające pełny kontrast */
+    max-width: 420px;
+    margin: 0 auto 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.container h2 {
+    color: #111111;
+    margin-top: 0;
+}
+
+/* Styl dla przycisków menu oraz powrotu */
+.przycisk {
+    display: block;
+    background-color: #1a73e8; /* Wyrazisty niebieski */
+    color: #ffffff !important;
+    padding: 12px 20px;
+    margin: 12px auto;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.przycisk:hover {
+    background-color: #1557b0;
+    transform: translateY(-2px);
+}
+
+/* Formularze i etykiety */
+label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Przycisk wysyłania formularza */
+button[type="submit"] {
+    background-color: #2e7d32; /* Wyrazisty zielony */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1b5e20;
+}
+
+/* Ramka z wynikiem po wysłaniu */
+.wynik {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    border: 1px solid #c8e6c9;
+    border-radius: 6px;
+    text-align: left;
+}
